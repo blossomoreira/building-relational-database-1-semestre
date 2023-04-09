@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HOSPITAL_PODE_TER_VARIOS_MEDICOS" directorySegmentName="seg_0" id="79FF813C-1881-215A-4ACF-3602816AD371">
+<createdBy>Windows.10</createdBy>
+<createdTime>2023-04-09 19:18:25 UTC</createdTime>
+<ownerDesignName>hospital_modelo</ownerDesignName>
+<engineerTo>
+<item key="36C22D20-B6C8-4A30-84EE-1E30712B90AD" value="true"/>
+</engineerTo>
+<sourcePk>63B67127-6FF1-C075-F614-D92995D0851B</sourcePk>
+<targetPk>1E9F8DAF-8558-7234-DDC1-5899798B795E</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>748D93B5-A9E5-80DF-2929-5D9C5544A9CA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E03F8369-31BF-E946-02B6-6FAD35292A92</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

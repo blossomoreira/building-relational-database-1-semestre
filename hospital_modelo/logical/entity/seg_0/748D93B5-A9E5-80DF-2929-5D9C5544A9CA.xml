@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="748D93B5-A9E5-80DF-2929-5D9C5544A9CA" name="HOSPITAL">
+<createdBy>Windows.10</createdBy>
+<createdTime>2023-04-09 19:08:11 UTC</createdTime>
+<ownerDesignName>hospital_modelo</ownerDesignName>
+<engineerTo>
+<item key="36C22D20-B6C8-4A30-84EE-1E30712B90AD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="09D38A64-2F02-F9B5-07BD-96101A303E96">
+<createdBy>Windows.10</createdBy>
+<createdTime>2023-04-09 19:08:23 UTC</createdTime>
+<ownerDesignName>hospital_modelo</ownerDesignName>
+<engineerTo>
+<item key="36C22D20-B6C8-4A30-84EE-1E30712B90AD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep" id="7B965463-1199-8764-8802-EE2BD6AF8094">
+<createdBy>Windows.10</createdBy>
+<createdTime>2023-04-09 19:08:19 UTC</createdTime>
+<ownerDesignName>hospital_modelo</ownerDesignName>
+<engineerTo>
+<item key="36C22D20-B6C8-4A30-84EE-1E30712B90AD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnpj" id="382319D2-AA68-B242-CE0F-E701C7490E99">
+<createdBy>Windows.10</createdBy>
+<createdTime>2023-04-09 19:08:28 UTC</createdTime>
+<ownerDesignName>hospital_modelo</ownerDesignName>
+<engineerTo>
+<item key="36C22D20-B6C8-4A30-84EE-1E30712B90AD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="63B67127-6FF1-C075-F614-D92995D0851B" name="HOSPITAL PK">
+<createdBy>Windows.10</createdBy>
+<createdTime>2023-04-09 19:09:27 UTC</createdTime>
+<ownerDesignName>hospital_modelo</ownerDesignName>
+<engineerTo>
+<item key="36C22D20-B6C8-4A30-84EE-1E30712B90AD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>09D38A64-2F02-F9B5-07BD-96101A303E96</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
